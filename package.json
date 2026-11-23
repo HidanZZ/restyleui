@@ -1,0 +1,18 @@
+{
+  "name": "restyleui",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm registry:build && pnpm --filter web build",
+    "lint": "pnpm -r lint",
+    "registry:build": "shadcn build --output apps/web/public/r"
+  },
+  "devDependencies": {
+    "shadcn": "4.23.0"
+  }
+}

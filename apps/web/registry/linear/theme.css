@@ -1,0 +1,190 @@
+/* Add data-kit="linear" to <html>. Load Inter, Newsreader, and JetBrains Mono from Google Fonts. Licensed fonts expected: Tiempos Headline from Klim and Berkeley Mono from U.S. Graphics. */
+[data-kit="linear"] {
+  color-scheme: dark;
+
+  --background: #08090a;
+  --foreground: #f7f8f8;
+  --card: #0f1011;
+  --card-foreground: #f7f8f8;
+  --popover: #0f1011;
+  --popover-foreground: #f7f8f8;
+  --primary: #5e6ad2;
+  --primary-foreground: #ffffff;
+  --secondary: #1c1c1f;
+  --secondary-foreground: #d0d6e0;
+  --muted: #141516;
+  --muted-foreground: #8a8f98;
+  --accent: #18182f;
+  --accent-foreground: #f7f8f8;
+  --border: #23252a;
+  --input: #34343a;
+  --ring: #5e6ad2;
+
+  --kit-font-body: "Inter Variable", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-display: "Tiempos Headline", var(--font-newsreader), ui-serif, Georgia, serif;
+  --kit-font-mono: "Berkeley Mono", var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  --kit-radius-sm: 6px;
+  --kit-radius: 8px;
+  --kit-radius-lg: 16px;
+  --kit-ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --kit-ease-in-out: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --kit-container: calc(1344px + 2 * var(--linear-homepage-outer-padding));
+  --kit-section-y: 64px;
+  --kit-gutter: var(--linear-homepage-outer-padding);
+
+  --linear-bg-marketing: #010102;
+  --linear-bg-secondary: #1c1c1f;
+  --linear-bg-tertiary: #232326;
+  --linear-bg-quaternary: #28282c;
+  --linear-bg-translucent: #ffffff0d;
+  --linear-bg-panel: #0f1011;
+  --linear-bg-level-0: #08090a;
+  --linear-bg-level-1: #0f1011;
+  --linear-bg-level-2: #141516;
+  --linear-bg-level-3: #191a1b;
+  --linear-bg-tint: #141516;
+
+  --linear-text-secondary: #d0d6e0;
+  --linear-text-tertiary: #8a8f98;
+  --linear-text-quaternary: #62666d;
+  --linear-link: #828fff;
+  --linear-link-hover: #ffffff;
+  --linear-brand: #5e6ad2;
+  --linear-brand-text: #ffffff;
+  --linear-accent: #7170ff;
+  --linear-accent-hover: #828fff;
+  --linear-accent-tint: #18182f;
+  --linear-button-invert: #e5e5e6;
+
+  --linear-border-secondary: #34343a;
+  --linear-border-tertiary: #3e3e44;
+  --linear-border-translucent: #ffffff0d;
+  --linear-border-translucent-strong: #ffffff14;
+  --linear-line-primary: #37393a;
+  --linear-line-secondary: #202122;
+  --linear-line-tertiary: #18191a;
+  --linear-line-quaternary: #141515;
+
+  --linear-blue: #4ea7fc;
+  --linear-red: #eb5757;
+  --linear-green: #27a644;
+  --linear-orange: #fc7840;
+  --linear-yellow: #f0bf00;
+  --linear-teal: #00b8cc;
+  --linear-plan: #68cc58;
+  --linear-build: #d4b144;
+  --linear-security: #7a7fad;
+
+  --linear-shadow-low: 0 2px 4px #0000001a;
+  --linear-shadow-medium: 0 4px 24px #0003;
+  --linear-shadow-high: 0 7px 32px #00000059;
+  --linear-header-height: 72px;
+  --linear-header-blur: 20px;
+  --linear-header-bg: #0b0b0bcc;
+  --linear-header-border: #ffffff14;
+  --linear-page-padding: 24px;
+  --linear-page-max: 1024px;
+  --linear-prose-max: 624px;
+  --linear-homepage-outer-padding: 46px;
+  --linear-homepage-padding-inset: 32px;
+  --linear-content-width: 1344px;
+  --linear-grid-columns: 12;
+
+  --linear-radius-4: 4px;
+  --linear-radius-6: 6px;
+  --linear-radius-8: 8px;
+  --linear-radius-12: 12px;
+  --linear-radius-16: 16px;
+  --linear-radius-24: 24px;
+  --linear-radius-32: 32px;
+  --linear-radius-rounded: 9999px;
+  --linear-ease-entrance: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --linear-duration-quick: 100ms;
+  --linear-duration-regular: 250ms;
+
+  --linear-weight-normal: 400;
+  --linear-weight-medium: 510;
+  --linear-weight-semibold: 590;
+  --linear-weight-bold: 680;
+  --linear-font-size-micro: 0.6875rem;
+  --linear-font-size-mini: 0.75rem;
+  --linear-font-size-small: 0.8125rem;
+  --linear-font-size-regular: 0.9375rem;
+  --linear-font-size-large: 1.125rem;
+
+  --linear-title-1-size: 1.0625rem;
+  --linear-title-1-line-height: 1.4;
+  --linear-title-1-letter-spacing: -0.012em;
+  --linear-title-2-size: 1.25rem;
+  --linear-title-2-line-height: 1.33;
+  --linear-title-2-letter-spacing: -0.012em;
+  --linear-title-3-size: 1.5rem;
+  --linear-title-3-line-height: 1.33;
+  --linear-title-3-letter-spacing: -0.012em;
+  --linear-title-4-size: 2rem;
+  --linear-title-4-line-height: 1.125;
+  --linear-title-4-letter-spacing: -0.022em;
+  --linear-title-5-size: 2.5rem;
+  --linear-title-5-line-height: 1.1;
+  --linear-title-5-letter-spacing: -0.022em;
+  --linear-title-6-size: 3rem;
+  --linear-title-6-line-height: 1;
+  --linear-title-6-letter-spacing: -0.022em;
+  --linear-title-7-size: 3.5rem;
+  --linear-title-7-line-height: 1.1;
+  --linear-title-7-letter-spacing: -0.022em;
+  --linear-title-8-size: 4rem;
+  --linear-title-8-line-height: 1.06;
+  --linear-title-8-letter-spacing: -0.022em;
+  --linear-title-9-size: 4.5rem;
+  --linear-title-9-line-height: 1;
+  --linear-title-9-letter-spacing: -0.022em;
+
+  --linear-text-large-size: 1.0625rem;
+  --linear-text-large-line-height: 1.6;
+  --linear-text-large-letter-spacing: 0;
+  --linear-text-regular-size: 0.9375rem;
+  --linear-text-regular-line-height: 1.6;
+  --linear-text-regular-letter-spacing: -0.011em;
+  --linear-text-small-size: 0.875rem;
+  --linear-text-small-line-height: 1.5;
+  --linear-text-small-letter-spacing: -0.013em;
+  --linear-text-mini-size: 0.8125rem;
+  --linear-text-mini-line-height: 1.5;
+  --linear-text-mini-letter-spacing: -0.01em;
+  --linear-text-micro-size: 0.75rem;
+  --linear-text-micro-line-height: 1.4;
+  --linear-text-micro-letter-spacing: 0;
+  --linear-text-tiny-size: 0.625rem;
+  --linear-text-tiny-line-height: 1.5;
+  --linear-text-tiny-letter-spacing: -0.015em;
+}
+
+@media (max-width: 1280px) {
+  [data-kit="linear"] {
+    --linear-homepage-outer-padding: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  [data-kit="linear"] {
+    --linear-homepage-outer-padding: 28px;
+    --linear-homepage-padding-inset: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  [data-kit="linear"] {
+    --kit-section-y: 48px;
+    --linear-grid-columns: 8;
+  }
+}
+
+@media (max-width: 640px) {
+  [data-kit="linear"] {
+    --linear-homepage-outer-padding: 16px;
+    --linear-header-height: 64px;
+    --linear-grid-columns: 4;
+  }
+}

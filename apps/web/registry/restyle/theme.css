@@ -1,0 +1,44 @@
+/*
+ * Restyle UI theme bridge.
+ * Maps the token names every kit defines to Tailwind v4 utilities.
+ * Install once, next to the theme file of the kit you use.
+ *
+ * Colors use the shadcn names, so kits also restyle existing shadcn/ui components.
+ * Utilities: bg-background, text-muted-foreground, border-border, font-body,
+ * font-display, font-mono, rounded-kit-sm, rounded-kit, rounded-kit-lg,
+ * ease-kit, ease-kit-in-out, max-w-kit, py-section, px-gutter.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-body: var(--kit-font-body);
+  --font-display: var(--kit-font-display);
+  --font-mono: var(--kit-font-mono);
+
+  --radius-kit-sm: var(--kit-radius-sm);
+  --radius-kit: var(--kit-radius);
+  --radius-kit-lg: var(--kit-radius-lg);
+
+  --ease-kit: var(--kit-ease);
+  --ease-kit-in-out: var(--kit-ease-in-out);
+
+  --container-kit: var(--kit-container);
+  --spacing-section: var(--kit-section-y);
+  --spacing-gutter: var(--kit-gutter);
+}

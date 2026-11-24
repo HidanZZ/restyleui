@@ -1,6 +1,6 @@
 # Restyle UI: v1 scope
 
-Status: draft from the grilling session on 2026-11-23. Waiting for confirmation.
+Status: confirmed on 2026-11-23. File layout and contracts: `docs/ARCHITECTURE.md`.
 
 ## Product
 
@@ -34,7 +34,7 @@ Kit style ─────────┤
 | Norma style | `~/projects/clone-website-skill/apps/norma` | light | easy |
 | Linear style | `~/projects/clone-website-skill/apps/linear` | dark | easy |
 | Apple style | `~/projects/clone-website-skill/apps/apple` | light | medium |
-| Teamwork Graph style | `~/projects/clone-website-skill/apps/teamworkgraph` | light | medium |
+| Teamwork Graph style | `~/projects/clone-website-skill/apps/teamworkgraph` | dark | medium |
 | mckp style | `~/projects/clone-website-skill/apps/mckp` | dark | medium |
 
 Each kit ships only in its native mode. The website itself has light and dark mode.
@@ -50,7 +50,7 @@ Each kit ships only in its native mode. The website itself has light and dark mo
 7. Count-up numbers
 8. Overlay and dialog with focus return (`@ui-sdk/core`)
 
-## Common components (14)
+## Common components (15)
 
 | Group | Components |
 |---|---|
@@ -77,7 +77,7 @@ Hero, Logo strip, Feature grid, Feature tabs, Testimonials, FAQ, CTA, Footer.
 
 - Style tokens as CSS variables for Tailwind v4
 - `DESIGN.md`: tokens, motion feel, layout rules, do and don't. The agent skill reads it before it builds.
-- 14 common components, 8 common sections, and 2 or 3 unique components
+- 15 common components, 8 common sections, and 2 or 3 unique components
 - Landing page template, installable as `@restyleui/<kit>/landing`
 - Live demo page built only from the kit's pieces
 
@@ -93,9 +93,9 @@ Hero, Logo strip, Feature grid, Feature tabs, Testimonials, FAQ, CTA, Footer.
 ## Tech
 
 - pnpm monorepo:
-  - `packages/behaviors`: the 8 behaviors
-  - `registry/<kit>/`: tokens, `DESIGN.md`, components, sections, landing template
   - `apps/web`: Next.js App Router website. It also serves the registry JSON and `llms.txt`.
+  - `apps/web/registry/restyle/`: shared contract, theme bridge and the 8 behaviors
+  - `apps/web/registry/<kit>/`: tokens, `DESIGN.md`, components, sections, landing template
   - `skills/restyleui`: the agent skill
 - React only. Tailwind v4, CSS variables, Motion, `@ui-sdk/core`.
 - Behaviors and components are copied into the user's project through the shadcn registry. `@ui-sdk/core` and `motion` stay npm dependencies.

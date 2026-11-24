@@ -1,0 +1,125 @@
+/*
+ * Norma style tokens.
+ *
+ * Use it: add data-kit="norma" to <html>. The page is light only.
+ *
+ * Free fonts to load (Google Fonts):
+ *   Inter Tight, weights 400, 500, 600, 700. It is the fallback for the
+ *   original face. Load it as a variable and expose it as --font-inter-tight,
+ *   for example with next/font/google.
+ *
+ * Paid font expected: Suisse Intl (Swiss Typefaces), weights 400, 500, 600,
+ * 700. If you own it, declare @font-face rules in your app; the stacks below
+ * find "Suisse Intl" automatically and fall back to Inter Tight otherwise.
+ * https://www.swisstypefaces.com/fonts/suisse/
+ *
+ * Norma has no mono face. Code samples can load IBM Plex Mono (optional).
+ * The signature curve is --kit-ease: cubic-bezier(0.22, 1, 0.36, 1).
+ */
+
+[data-kit="norma"] {
+  color-scheme: light;
+
+  /* shadcn surface names, mapped from the source palette */
+  --background: #ffffff; /* paper */
+  --foreground: #0a0a0a; /* ink */
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
+  --primary: #0a0a0a; /* ink: solid buttons, active pills, selection */
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5; /* paper-2: quiet wells and section panels */
+  --secondary-foreground: #0a0a0a;
+  --muted: #f5f5f5;
+  --muted-foreground: #6b6b6b; /* ink-2: body copy on light */
+  --accent: #ececec; /* paper-3: hovered rows and quiet chips */
+  --accent-foreground: #0a0a0a;
+  --border: #0a0a0a1a; /* line: 10% ink */
+  --input: #0a0a0a1a;
+  --ring: #0a0a0a4d; /* focus ring, 30% ink */
+
+  --kit-font-body: "Suisse Intl", var(--font-inter-tight), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --kit-font-display: "Suisse Intl", var(--font-inter-tight), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Norma has no mono face. This stack only serves code samples and font-mono utilities. */
+  --kit-font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* 12px chips and drawer rows, 16px FAQ rows and calculator, 28px media shells */
+  --kit-radius-sm: 0.75rem;
+  --kit-radius: 1rem;
+  --kit-radius-lg: 1.75rem;
+
+  --kit-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --kit-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --kit-container: 1040px;
+  --kit-section-y: 3rem; /* py-12 */
+  --kit-gutter: 1.5rem; /* Container px-6 */
+
+  /* Surfaces and lines */
+  --norma-paper: #ffffff;
+  --norma-paper-2: #f5f5f5;
+  --norma-paper-3: #ececec;
+  --norma-ink: #0a0a0a;
+  --norma-ink-2: #6b6b6b;
+  --norma-ink-3: #a1a1a1;
+  --norma-faint: #e3e3e3;
+  --norma-coal: #111111;
+  --norma-coal-2: #1a1a1a;
+  --norma-line: #0a0a0a1a;
+  --norma-line-soft: #0a0a0a0f;
+  --norma-line-inverse: #ffffff24;
+  --norma-accent: #0a0a0a;
+  --norma-selection-bg: #0a0a0a;
+  --norma-selection-fg: #ffffff;
+
+  /* Globe and data scene */
+  --norma-blue: #3d8bfd;
+  --norma-globe: #2c2c2e;
+  --norma-globe-grid: #3a3a3c;
+  --norma-globe-frame: #2a2a2a;
+
+  /* Type scale, copied from the source clamp() tokens */
+  --norma-text-eyebrow: 0.8125rem; /* 13px */
+  --norma-text-body: 1rem; /* 16px */
+  --norma-text-body-lg: 1.0625rem; /* 17px */
+  --norma-text-h3: clamp(1.125rem, 0.95rem + 0.7vw, 1.375rem);
+  --norma-text-h2: clamp(1.5rem, 1.15rem + 1.5vw, 2.25rem);
+  --norma-text-h1: clamp(2rem, 1.35rem + 2.8vw, 3.5rem);
+  --norma-text-data: clamp(2.5rem, 1.7rem + 3.4vw, 4rem);
+
+  --norma-leading-tight: 1.02;
+  --norma-leading-heading: 1.1;
+  --norma-leading-snug: 1.3;
+  --norma-leading-body: 1.5;
+
+  --norma-tracking-display: -0.03em; /* h1 and big numerals */
+  --norma-tracking-heading: -0.015em; /* h2 */
+  --norma-tracking-body: 0em;
+
+  --norma-font-features: "ss01", "cv01", "cv11";
+  --norma-font-features-nums: "tnum", "lnum";
+
+  /* Extra radii: tall feature cards, phone shells, memoji-style discs */
+  --norma-radius-xl: 2.25rem; /* 36px */
+  --norma-radius-phone: 2.75rem; /* 44px */
+  --norma-radius-pill: 9999px;
+
+  /* Air beyond the standard rhythm */
+  --norma-container-wide: 1920px; /* full-bleed media shell */
+  --norma-section-y-lg: 6rem; /* py-24 */
+  --norma-gutter-outer: 0.75rem; /* px-3, inset for full-bleed media blocks */
+
+  /* Shadows: only floating UI casts one */
+  --norma-shadow-float: 0 24px 60px -24px rgb(0 0 0 / 0.25);
+  --norma-shadow-tooltip: 0 10px 30px -10px rgb(0 0 0 / 0.5);
+}
+
+@media (min-width: 640px) {
+  [data-kit="norma"] {
+    --kit-section-y: 4rem; /* sm:py-16 */
+    --kit-gutter: 2rem; /* Container sm:px-8 */
+    --norma-section-y-lg: 8rem; /* sm:py-32 */
+    --norma-gutter-outer: 1rem; /* sm:px-4 */
+  }
+}

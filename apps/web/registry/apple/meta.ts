@@ -1,0 +1,53 @@
+import type { KitMeta } from "@/lib/catalog"
+
+export default {
+  slug: "apple",
+  name: "Apple style",
+  brand: "Apple",
+  url: "https://www.apple.com",
+  description: "A light, image-led product style with precise typography, quiet surfaces, and restrained motion.",
+  mode: "light",
+  fonts: [
+    { role: "body", original: "SF Pro Text", license: "system", fallback: "Inter" },
+    { role: "display", original: "SF Pro Display", license: "system", fallback: "Inter" },
+  ],
+  pieces: {
+    button: "source",
+    "text-link": "source",
+    badge: "designed",
+    card: "source",
+    "logo-row": "designed",
+    navbar: "source",
+    footer: "source",
+    tabs: "designed",
+    accordion: "source",
+    dialog: "source",
+    carousel: "source",
+    marquee: "designed",
+    reveal: "designed",
+    "count-up": "designed",
+    input: "designed",
+    hero: "source",
+    "logo-strip": "designed",
+    "feature-grid": "source",
+    "feature-tabs": "designed",
+    testimonials: "designed",
+    faq: "designed",
+    cta: "source",
+    "footer-section": "source",
+  },
+  unique: [
+    {
+      slug: "endless-gallery",
+      title: "Endless Gallery",
+      description: "A looping media rail with timed pagination, wide imagery, and playback controls.",
+      source: "source",
+    },
+    {
+      slug: "mega-nav",
+      title: "Flyout Mega Nav",
+      description: "A translucent navigation flyout with grouped links and staggered item reveals.",
+      source: "source",
+    },
+  ],
+} satisfies KitMeta

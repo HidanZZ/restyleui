@@ -8,11 +8,9 @@
   },
   "scripts": {
     "dev": "pnpm --filter web dev",
-    "build": "pnpm registry:build && pnpm --filter web build",
+    "build": "pnpm --filter web registry:gen && pnpm --filter web registry:build && pnpm --filter web build",
     "lint": "pnpm -r lint",
-    "registry:build": "shadcn build --output apps/web/public/r"
-  },
-  "devDependencies": {
-    "shadcn": "4.23.0"
+    "registry:gen": "pnpm --filter web registry:gen",
+    "registry:build": "pnpm --filter web registry:build"
   }
 }

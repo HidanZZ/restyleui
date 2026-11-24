@@ -1,0 +1,141 @@
+/*
+ * mckp style tokens.
+ * Add data-kit="mckp" to <html>.
+ * Load Inter (400, 500, 600) and DM Mono (400) from Google Fonts.
+ */
+
+[data-kit="mckp"] {
+  color-scheme: dark;
+
+  --background: #101010;
+  --foreground: #ffffff;
+  --card: #161616;
+  --card-foreground: #ffffff;
+  --popover: #181818;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #161616;
+  --secondary-foreground: #ffffff;
+  --muted: #161616;
+  --muted-foreground: #b8b8b8;
+  --accent: #2f00ff;
+  --accent-foreground: #ffffff;
+  --border: #252525;
+  --input: #252525;
+  --ring: #ffffff;
+
+  --kit-font-body: "Inter", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-display: "Inter", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-mono: "DM Mono", var(--font-dm-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --kit-radius-sm: 6px;
+  --kit-radius: 8px;
+  --kit-radius-lg: 12px;
+
+  --kit-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --kit-ease-in-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --kit-container: 1200px;
+  --kit-section-y: 120px;
+  --kit-gutter: 40px;
+
+  /* Surfaces and ink. */
+  --mckp-page-black: #000000;
+  --mckp-surface-deep: #121212;
+  --mckp-surface: #161616;
+  --mckp-surface-raised: #181818;
+  --mckp-surface-glass: #1c1c1cb8;
+  --mckp-ink-soft: #b8b8b8;
+  --mckp-ink-dim: #3b3b3b;
+  --mckp-ink-faint: #7c7c7c;
+  --mckp-ink-mono: #818181;
+  --mckp-line-soft: #1e1e1e;
+  --mckp-line-strong: #2e2e2e;
+
+  /* Accent and demo code colors. */
+  --mckp-electric: #2f00ff;
+  --mckp-code-blue: #00a1ff;
+  --mckp-code-violet: #9346ff;
+  --mckp-code-orange: #ff6600;
+  --mckp-code-green: #67c416;
+
+  /* Type scale. Weight, line height and tracking are part of the scale. */
+  --mckp-type-display: 80px;
+  --mckp-type-display-line: 80px;
+  --mckp-type-display-tracking: -4.2px;
+  --mckp-type-display-weight: 500;
+  --mckp-type-h1: 70px;
+  --mckp-type-h1-line: 1;
+  --mckp-type-h1-tracking: -3px;
+  --mckp-type-h1-weight: 500;
+  --mckp-type-h2: 38px;
+  --mckp-type-h2-line: 42px;
+  --mckp-type-h2-tracking: -1.52px;
+  --mckp-type-h2-weight: 400;
+  --mckp-type-body: 16px;
+  --mckp-type-body-line: 24px;
+  --mckp-type-body-weight: 400;
+  --mckp-type-nav: 14px;
+  --mckp-type-nav-line: 24px;
+  --mckp-type-nav-weight: 600;
+  --mckp-type-small: 14px;
+  --mckp-type-small-line: 22px;
+  --mckp-type-small-weight: 400;
+  --mckp-type-mono: 12px;
+  --mckp-type-mono-line: 24px;
+  --mckp-type-mono-weight: 400;
+  --mckp-type-note: 11px;
+  --mckp-type-note-line: 16px;
+  --mckp-type-note-weight: 400;
+
+  /* Space, layout and surfaces. */
+  --mckp-space-6: 6px;
+  --mckp-space-8: 8px;
+  --mckp-space-12: 12px;
+  --mckp-space-24: 24px;
+  --mckp-space-60: 60px;
+  --mckp-section-y-lg: 160px;
+  --mckp-section-y-sm: 80px;
+  --mckp-hero-min-height: 544px;
+  --mckp-grid-columns: 9;
+  --mckp-tile-gap: 2px;
+  --mckp-card-pad: 24px;
+  --mckp-feature-pad: 32px;
+  --mckp-glass-blur: blur(40px) saturate(1.4);
+}
+
+@media (width <= 1024px) {
+  [data-kit="mckp"] {
+    --kit-section-y: 80px;
+    --kit-gutter: 24px;
+    --mckp-type-display: 60px;
+    --mckp-type-display-line: 60px;
+    --mckp-type-display-tracking: -3px;
+    --mckp-type-h1: 56px;
+    --mckp-type-h1-tracking: -2.5px;
+    --mckp-type-h2: 32px;
+    --mckp-type-h2-line: 36px;
+    --mckp-type-h2-tracking: -1.2px;
+    --mckp-section-y-lg: 80px;
+    --mckp-section-y-sm: 60px;
+  }
+}
+
+@media (width <= 768px) {
+  [data-kit="mckp"] {
+    --kit-section-y: 60px;
+    --kit-gutter: 16px;
+    --mckp-type-display: 42px;
+    --mckp-type-display-line: 42px;
+    --mckp-type-display-tracking: -2px;
+    --mckp-type-h1: 36px;
+    --mckp-type-h1-tracking: -1.5px;
+    --mckp-type-h2: 26px;
+    --mckp-type-h2-line: 30px;
+    --mckp-type-h2-tracking: -0.8px;
+    --mckp-section-y-lg: 60px;
+    --mckp-section-y-sm: 40px;
+    --mckp-hero-min-height: 400px;
+  }
+}

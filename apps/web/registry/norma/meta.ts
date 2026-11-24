@@ -1,0 +1,72 @@
+import type { KitMeta } from "@/lib/catalog"
+
+export default {
+  slug: "norma",
+  name: "Norma style",
+  brand: "Norma",
+  url: "https://nor.ma",
+  description:
+    "Quiet Swiss product minimalism: near-black type on white, soft gray wells, pill controls and moody steel photography that blurs into focus while a film scrubs with the scroll.",
+  mode: "light",
+  fonts: [
+    {
+      role: "body",
+      original: "Suisse Intl",
+      license: "paid",
+      fallback: "Inter Tight",
+      buyUrl: "https://www.swisstypefaces.com/fonts/suisse/",
+    },
+    {
+      role: "display",
+      original: "Suisse Intl",
+      license: "paid",
+      fallback: "Inter Tight",
+      buyUrl: "https://www.swisstypefaces.com/fonts/suisse/",
+    },
+  ],
+  pieces: {
+    button: "source",
+    "text-link": "source",
+    badge: "source",
+    card: "source",
+    "logo-row": "source",
+    navbar: "source",
+    footer: "source",
+    tabs: "source",
+    accordion: "source",
+    dialog: "source",
+    carousel: "designed",
+    marquee: "designed",
+    reveal: "source",
+    "count-up": "source",
+    input: "source",
+    hero: "source",
+    "logo-strip": "source",
+    "feature-grid": "source",
+    "feature-tabs": "source",
+    testimonials: "source",
+    faq: "source",
+    cta: "source",
+    "footer-section": "source",
+  },
+  unique: [
+    {
+      slug: "globe",
+      title: "Globe",
+      description: "A dark wireframe globe that tilts toward the pointer, with a glowing locator beam under a centered call to action.",
+      source: "source",
+    },
+    {
+      slug: "scroll-video-reveal",
+      title: "Scroll Video Reveal",
+      description: "A full-screen film scrubbed forward and backward by scroll position, closing on a pinned order call to action.",
+      source: "source",
+    },
+    {
+      slug: "screen-time-calculator",
+      title: "Screen Time Calculator",
+      description: "Drag the age and screen time fields to see the years and share of life spent on a phone.",
+      source: "source",
+    },
+  ],
+} satisfies KitMeta

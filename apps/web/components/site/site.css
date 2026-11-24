@@ -1,0 +1,41 @@
+/*
+ * Website chrome details that utilities do not cover: highlighted code, text
+ * selection and scrollbars. Built from the chrome tokens in app/globals.css.
+ */
+
+.site-code pre {
+  margin: 0;
+  padding: 14px 16px;
+  background: transparent !important;
+  font-family: var(--kit-font-mono);
+  tab-size: 2;
+  width: max-content;
+  min-width: 100%;
+}
+
+.site-code code {
+  font-family: inherit;
+}
+
+.site-code span {
+  color: var(--shiki-light);
+}
+
+.dark .site-code span {
+  color: var(--shiki-dark);
+}
+
+html {
+  scrollbar-color: color-mix(in oklab, var(--foreground) 22%, transparent) transparent;
+  scroll-padding-top: 5rem;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--foreground) 16%, transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+}

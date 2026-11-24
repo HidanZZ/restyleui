@@ -15,7 +15,7 @@ export default {
   pieces: {
     button: "source",
     "text-link": "source",
-    badge: "source",
+    badge: "designed",
     card: "source",
     "logo-row": "source",
     navbar: "source",
@@ -24,7 +24,7 @@ export default {
     accordion: "designed",
     dialog: "source",
     carousel: "source",
-    marquee: "source",
+    marquee: "designed",
     reveal: "source",
     "count-up": "designed",
     input: "designed",

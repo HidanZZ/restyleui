@@ -1,26 +1,71 @@
 @import "tailwindcss";
+@import "../registry/restyle/theme.css";
+@import "../registry/kits.css";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Website chrome tokens. Kit previews override these inside [data-kit]. */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0b0b0b;
+  --card: #ffffff;
+  --card-foreground: #0b0b0b;
+  --popover: #ffffff;
+  --popover-foreground: #0b0b0b;
+  --primary: #0b0b0b;
+  --primary-foreground: #fafafa;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #0b0b0b;
+  --muted: #f4f4f4;
+  --muted-foreground: #666666;
+  --accent: #f4f4f4;
+  --accent-foreground: #0b0b0b;
+  --border: #e7e7e7;
+  --input: #dedede;
+  --ring: #a3a3a3;
+
+  --kit-font-body: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --kit-radius-sm: 6px;
+  --kit-radius: 10px;
+  --kit-radius-lg: 16px;
+  --kit-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --kit-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --kit-container: 1200px;
+  --kit-section-y: 96px;
+  --kit-gutter: 24px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0b0b0b;
+  --foreground: #ededed;
+  --card: #111111;
+  --card-foreground: #ededed;
+  --popover: #141414;
+  --popover-foreground: #ededed;
+  --primary: #ededed;
+  --primary-foreground: #0b0b0b;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #ededed;
+  --muted: #1a1a1a;
+  --muted-foreground: #a1a1a1;
+  --accent: #1a1a1a;
+  --accent-foreground: #ededed;
+  --border: #242424;
+  --input: #2e2e2e;
+  --ring: #5e5e5e;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--kit-font-body);
+}
+
+/* Kit roots set their own text and background so previews look native. */
+[data-kit] {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--kit-font-body);
 }

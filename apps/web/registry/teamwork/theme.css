@@ -1,0 +1,67 @@
+/* Add data-kit="teamwork" to <html>. Atlassian Sans, Charlie Display and Atlassian Mono are private fonts; use the free Inter, Manrope and IBM Plex Mono fallbacks when unavailable. */
+[data-kit="teamwork"] {
+  --background: #111213;
+  --foreground: #cecfd2;
+  --card: #1f1f21;
+  --card-foreground: #cecfd2;
+  --popover: #2b2c2f;
+  --popover-foreground: #cecfd2;
+  --primary: #669df1;
+  --primary-foreground: #1f1f21;
+  --secondary: #242528;
+  --secondary-foreground: #cecfd2;
+  --muted: #242528;
+  --muted-foreground: #a9abaf;
+  --accent: #1c2b42;
+  --accent-foreground: #8fb8f6;
+  --border: #e3e4f21f;
+  --input: #7e8188;
+  --ring: #8fb8f6;
+
+  --kit-font-body: "Atlassian Sans", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-display: "Charlie Display", var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --kit-font-mono: "Atlassian Mono", var(--font-plex-mono), ui-monospace, "SFMono-Regular", monospace;
+
+  --kit-radius-sm: 4px;
+  --kit-radius: 6px;
+  --kit-radius-lg: 12px;
+  --kit-ease: cubic-bezier(0.4, 1, 0.6, 1);
+  --kit-ease-in-out: cubic-bezier(0.42, 0, 0.58, 1);
+  --kit-container: 1200px;
+  --kit-section-y: 120px;
+  --kit-gutter: 24px;
+
+  --teamwork-page: #111213;
+  --teamwork-surface: #1f1f21;
+  --teamwork-surface-raised: #242528;
+  --teamwork-surface-overlay: #2b2c2f;
+  --teamwork-surface-sunken: #18191a;
+  --teamwork-blue: #669df1;
+  --teamwork-blue-strong: #357de8;
+  --teamwork-blue-deep: #1558bc;
+  --teamwork-lilac: #c97cf4;
+  --teamwork-yellow: #fca700;
+  --teamwork-green: #94c748;
+  --teamwork-teal: #42b2d7;
+  --teamwork-text-muted: #a9abaf;
+  --teamwork-text-subtle: #96999e;
+  --teamwork-grid: #2b2c2f;
+  --teamwork-line: #e3e4f21f;
+  --teamwork-shadow-overlay: 0 0 0 1px #bdbdbd1f, 0 8px 12px #0104045c, 0 0 1px 1px #01040480;
+
+  --teamwork-text-xs: 12px;
+  --teamwork-leading-xs: 16px;
+  --teamwork-text-sm: 14px;
+  --teamwork-leading-sm: 20px;
+  --teamwork-text-body: 16px;
+  --teamwork-leading-body: 28px;
+  --teamwork-text-title: 24px;
+  --teamwork-leading-title: 36px;
+  --teamwork-text-display: 32px;
+  --teamwork-leading-display: 48px;
+  --teamwork-text-heading-sm: 20px;
+  --teamwork-leading-heading-sm: 30px;
+  --teamwork-leading-hero: 38.4px;
+  --teamwork-text-stat: 28px;
+  --teamwork-leading-stat: 40px;
+}

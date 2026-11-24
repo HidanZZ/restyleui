@@ -1,6 +1,7 @@
 /* Add data-kit="linear" to <html>. Load Inter, Newsreader, and JetBrains Mono from Google Fonts. Licensed fonts expected: Tiempos Headline from Klim and Berkeley Mono from U.S. Graphics. */
 [data-kit="linear"] {
   color-scheme: dark;
+  font-feature-settings: "cv01", "ss03";
 
   --background: #08090a;
   --foreground: #f7f8f8;

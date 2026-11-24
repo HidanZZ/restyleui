@@ -2,7 +2,7 @@
 
 Every kit builds its interactive and moving pieces from the same 8 behaviors. This file is the only reference a kit component author needs: which hook or ui-sdk part to use, and a complete recipe for each common component that uses it.
 
-Live demo of everything below: `http://localhost:3000/dev/behaviors` (dev only).
+Live demos of everything below: `/docs/behaviors` on the website.
 
 ## Rules
 

@@ -25,10 +25,32 @@ export type KitModule = {
 }
 
 /**
- * Registered kits. The orchestrator adds one entry per finished kit, for example:
- * `norma: async () => ({ ...(await import("@/registry/norma/index")), Landing: (await import("@/registry/norma/landing")).Landing })`
+ * Registered kits. Each entry loads the kit module and its landing page on demand.
+ * Dynamic imports are deliberate: each kit stays in its own chunk, so a page only
+ * downloads the kit the switcher shows.
  */
-export const kitModules: Partial<Record<KitSlug, () => Promise<KitModule>>> = {}
+export const kitModules: Partial<Record<KitSlug, () => Promise<KitModule>>> = {
+  norma: async () => ({
+    ...(await import("@/registry/norma/index")),
+    Landing: (await import("@/registry/norma/landing")).Landing,
+  }),
+  linear: async () => ({
+    ...(await import("@/registry/linear/index")),
+    Landing: (await import("@/registry/linear/landing")).Landing,
+  }),
+  apple: async () => ({
+    ...(await import("@/registry/apple/index")),
+    Landing: (await import("@/registry/apple/landing")).Landing,
+  }),
+  teamwork: async () => ({
+    ...(await import("@/registry/teamwork/index")),
+    Landing: (await import("@/registry/teamwork/landing")).Landing,
+  }),
+  mckp: async () => ({
+    ...(await import("@/registry/mckp/index")),
+    Landing: (await import("@/registry/mckp/landing")).Landing,
+  }),
+}
 
 export const DEFAULT_KIT: KitSlug = "norma"
 

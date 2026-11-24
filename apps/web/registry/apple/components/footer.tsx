@@ -85,10 +85,13 @@ export function Footer({ brand, description, columns, social, legal, className }
           <div className={cn("flex flex-col gap-2 border-t pt-[17px] pb-[11px] min-[834px]:flex-row min-[834px]:items-baseline min-[834px]:gap-[30px]", rule)}>
             {legal && <p>Copyright © {legal}</p>}
             {social && social.length > 0 && (
-              <ul className="flex flex-wrap">
-                {social.map((item, index) => (
-                  <li key={item.label + item.href} className="flex items-center">
-                    {index > 0 && <span aria-hidden="true" className="mx-[9px] h-[10px] w-px bg-foreground/48" />}
+              <ul className="flex flex-wrap gap-y-1">
+                {social.map((item) => (
+                  // The pipe trails each link except the last, so a wrapped line never starts with one.
+                  <li
+                    key={item.label + item.href}
+                    className="flex items-center after:mx-[9px] after:h-[10px] after:w-px after:bg-foreground/48 after:content-[''] last:after:hidden"
+                  >
                     <a href={item.href} className={cn(link, "whitespace-nowrap")}>
                       {item.label}
                     </a>

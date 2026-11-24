@@ -154,7 +154,7 @@ function Stat({ value, decimals, suffix, unit, caption, bar, started, glass }: S
       <p
         aria-hidden
         className={cn(
-          "text-[clamp(1.625rem,1.1rem+1.4vw,2.125rem)] leading-none font-semibold tracking-(--norma-tracking-display) tabular-nums",
+          "text-[clamp(1.625rem,1.1rem+1.7cqi,2.125rem)] leading-none font-semibold tracking-(--norma-tracking-display) tabular-nums",
           glass ? "text-background" : "text-foreground"
         )}
       >
@@ -213,13 +213,13 @@ export function ScreenTimeCalculator({
   const panel = (
     <div
       className={cn(
-        "overflow-hidden rounded-kit border",
+        "@container overflow-hidden rounded-kit border",
         glass ? "border-(--norma-line-inverse) bg-background/10 backdrop-blur-md" : "border-border bg-background",
         !glass && className
       )}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className={cn("border-b p-6 sm:p-7 lg:border-r lg:border-b-0", glass ? "border-(--norma-line-inverse)" : "border-border")}>
+      <div className="grid grid-cols-1 @3xl:grid-cols-2">
+        <div className={cn("border-b p-6 @lg:p-7 @3xl:border-r @3xl:border-b-0", glass ? "border-(--norma-line-inverse)" : "border-border")}>
           <h3
             className={cn(
               "max-w-[22ch] font-display text-(length:--norma-text-h3) leading-(--norma-leading-snug) font-semibold text-balance",
@@ -233,7 +233,7 @@ export function ScreenTimeCalculator({
             <DragField label={hoursLabel} value={screen} onChange={setScreen} suffix="h" min={0} max={24} sensitivity={8} glass={glass} />
           </div>
         </div>
-        <div ref={resultsRef} aria-live="polite" className="grid grid-cols-2 items-start gap-5 p-6 sm:p-7">
+        <div ref={resultsRef} aria-live="polite" className="grid grid-cols-1 items-start gap-5 p-6 @[18rem]:grid-cols-2 @lg:p-7">
           <Stat value={Math.round(ahead * 10) / 10} decimals={1} unit={yearsUnit} caption={yearsCaption} started={resultsVisible} glass={glass} />
           <Stat value={Math.round(share)} decimals={0} suffix="%" caption={shareCaption} bar={share} started={resultsVisible} glass={glass} />
         </div>
@@ -248,7 +248,7 @@ export function ScreenTimeCalculator({
 
 function MediaShell({ heading, image, className, children }: { heading: string; image: string; className?: string; children: ReactNode }) {
   return (
-    <section className={cn("bg-background px-(--norma-gutter-outer) py-section", className)}>
+    <section className={cn("@container bg-background px-(--norma-gutter-outer) py-section", className)}>
       <Reveal>
         <div
           data-norma-invert
@@ -256,12 +256,12 @@ function MediaShell({ heading, image, className, children }: { heading: string; 
         >
           <img src={image} alt="" aria-hidden className="absolute inset-0 size-full object-cover" />
           <div aria-hidden className="absolute inset-0 bg-linear-to-r from-black/55 via-black/25 to-black/15" />
-          <div className="relative z-10 mx-auto w-full max-w-kit px-gutter pt-10 sm:pt-14">
+          <div className="relative z-10 mx-auto w-full max-w-kit px-gutter pt-10 @xl:pt-14">
             <h2 className="max-w-[18ch] font-display text-(length:--norma-text-h2) leading-(--norma-leading-heading) font-semibold tracking-(--norma-tracking-heading) text-balance text-background">
               {heading}
             </h2>
           </div>
-          <div className="relative z-10 mx-auto w-full max-w-kit px-gutter pt-10 pb-8 sm:pb-10">{children}</div>
+          <div className="relative z-10 mx-auto w-full max-w-kit px-gutter pt-10 pb-8 @xl:pb-10">{children}</div>
         </div>
       </Reveal>
     </section>

@@ -8,7 +8,7 @@
  * The slug and title list lives in `behavior-nav.ts`, a lightweight module the
  * client sidebar can import without pulling in the recipes below.
  */
-import { BEHAVIOR_SLUGS, BEHAVIOR_TITLES, type BehaviorSlug } from "@/lib/behavior-nav"
+import { BEHAVIOR_TITLES, type BehaviorSlug } from "@/lib/behavior-nav"
 
 export { BEHAVIOR_SLUGS, type BehaviorSlug } from "@/lib/behavior-nav"
 
@@ -927,10 +927,6 @@ export const BEHAVIORS: Behavior[] = [
     cssLayer: true,
   },
 ]
-
-export function isBehaviorSlug(value: string): value is BehaviorSlug {
-  return (BEHAVIOR_SLUGS as readonly string[]).includes(value)
-}
 
 export function getBehavior(slug: string): Behavior | undefined {
   return BEHAVIORS.find((behavior) => behavior.slug === slug)

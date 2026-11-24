@@ -10,7 +10,7 @@ import { cn } from "@/registry/restyle/lib/utils"
 export const metadata: Metadata = {
   title: "Behaviors",
   description:
-    "The 8 interactive and motion behaviors shared by every Restyle UI kit: nav, reveal, video, carousel, marquee, tabs, tilt, count-up and overlays.",
+    "The 8 interactive and motion behaviors shared by every Restyle UI kit: nav, reveal, video, carousel and marquee, tabs, tilt, count-up and overlays.",
 }
 
 export default function BehaviorsIndexPage() {

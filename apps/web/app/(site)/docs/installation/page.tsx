@@ -38,7 +38,7 @@ const NEXT: Framework = {
 
 const VITE: Framework = {
   css: "src/index.css",
-  cssImport: "../app",
+  cssImport: "./app",
   html: "index.html",
   htmlLang: "html",
   htmlCode: (kit) => `<html lang="en" data-kit="${kit}">`,
@@ -57,27 +57,55 @@ function RegistrySteps({ framework }: { framework: Framework }) {
         <p>
           Install the theme bridge and the tokens of the kit you picked. The CLI writes them to{" "}
           <Code>app/restyle-theme.css</Code> and <Code>app/restyle-&lt;kit&gt;.css</Code>, plus the kit&apos;s{" "}
-          <Code>DESIGN.md</Code> under <Code>restyle/</Code>.
+          <Code>DESIGN.md</Code> under <Code>restyle/</Code>. In a project with a <Code>src/</Code> folder they land
+          under <Code>src/</Code>, for example <Code>src/app/restyle-&lt;kit&gt;.css</Code>.
         </p>
         <KitCommand command={(kit) => `npx shadcn@latest add @restyleui/restyle-theme @restyleui/${kit}-theme`} />
       </Step>
-      <Step title="Import both CSS files">
+      <Step title="Set up the global stylesheet">
         <p>
-          Import them after Tailwind in <Code>{framework.css}</Code>.
+          Add <Code>@layer ui-sdk;</Code> as the first line of <Code>{framework.css}</Code>, before{" "}
+          <Code>@import &quot;tailwindcss&quot;</Code>. ui-sdk injects a few runtime styles in that layer, and
+          Tailwind utilities must win over them.
         </p>
         <KitCodeBlock
           lang="css"
           title={() => framework.css}
-          code={(kit) => `@import "tailwindcss";
+          code={(kit) => `@layer ui-sdk;
+
+@import "tailwindcss";
+
+/* shadcn :root, .dark and @theme blocks stay here */
+
 @import "${framework.cssImport}/restyle-theme.css";
 @import "${framework.cssImport}/restyle-${kit}.css";`}
         />
+        <p>
+          The two imports go at the end of the file, after the shadcn <Code>:root</Code>, <Code>.dark</Code> and{" "}
+          <Code>@theme</Code> blocks. <Code>:root</Code> and <Code>[data-kit=&quot;&lt;kit&gt;&quot;]</Code> have equal
+          specificity, so the later rule wins. Tailwind v4 inlines these imports. Fix the paths if the CLI wrote the
+          files somewhere else.
+        </p>
       </Step>
       <Step title="Set the kit on <html>">
         <p>
           Kit tokens apply under <Code>data-kit</Code>. Add it to the root element in <Code>{framework.html}</Code>.
         </p>
         <KitCodeBlock lang={framework.htmlLang} title={() => framework.html} code={framework.htmlCode} />
+      </Step>
+      <Step title="Load the fonts">
+        <p>
+          Load the free fallback fonts listed on the kit page and expose them as the CSS variables the kit font stacks
+          read, for example with <Code>next/font</Code> or a <Code>@font-face</Code> rule. Define every variable the
+          kit uses: an undefined one makes the whole stack invalid. The{" "}
+          <A href="#fonts">Fonts</A> section below has the details.
+        </p>
+      </Step>
+      <Step title="Read the design file">
+        <p>
+          Read <Code>restyle/&lt;kit&gt;/DESIGN.md</Code> before building. It documents the tokens, type scale,
+          spacing, motion and do and don&apos;t rules for the kit.
+        </p>
       </Step>
       <Step title="Add pieces">
         <p>Install any component, section or unique piece by name. Dependencies, such as shared behaviors, come along.</p>
@@ -146,9 +174,12 @@ export default function InstallationPage() {
 
       <H2 id="fonts">Fonts</H2>
       <P>
-        Kit font stacks put the original font first, then a free fallback. Load the free fallback yourself, for
-        example with <Code>next/font</Code> or a <Code>@font-face</Code> rule. Paid fonts load only when you own a
-        license. Each kit page lists its fonts, fallbacks and licenses: see <A href="/docs/kits/norma">a kit page</A>.
+        Kit font stacks put the original font first, then a free fallback. Load the free fallback yourself and define
+        the CSS variables the stacks read, for example <Code>--font-inter</Code> or{" "}
+        <Code>--font-jetbrains-mono</Code>, with <Code>next/font</Code> or a <Code>@font-face</Code> rule. Define every
+        variable the kit uses: an undefined one makes the whole font stack invalid. Paid fonts load only when you own a
+        license. Each kit page lists its fonts, fallbacks and licenses: see{" "}
+        <A href="/docs/kits/norma">a kit page</A>.
       </P>
 
       <H2 id="switching-kits">Switching kits</H2>

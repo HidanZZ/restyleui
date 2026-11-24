@@ -1,0 +1,3628 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "restyleui",
+  "homepage": "https://restyleui.dev",
+  "items": [
+    {
+      "name": "apple-accordion",
+      "type": "registry:component",
+      "title": "Apple style Accordion",
+      "description": "Sections that expand in place.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/accordion.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-badge",
+      "type": "registry:component",
+      "title": "Apple style Badge",
+      "description": "Small label for status, category or announcements.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/badge.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-button",
+      "type": "registry:component",
+      "title": "Apple style Button",
+      "description": "Primary, secondary and ghost actions, as a button or a link.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-card",
+      "type": "registry:component",
+      "title": "Apple style Card",
+      "description": "Media, title and copy in the kit's surface style.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-carousel",
+      "type": "registry:component",
+      "title": "Apple style Carousel",
+      "description": "Swipeable slides with controls and optional autoplay.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-count-up",
+      "type": "registry:component",
+      "title": "Apple style Count Up",
+      "description": "Number that counts up when it scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-count-up"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/count-up.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-cta",
+      "type": "registry:block",
+      "title": "Apple style Call to Action",
+      "description": "Closing call to action with buttons or a signup field.",
+      "registryDependencies": [
+        "@restyleui/apple-button",
+        "@restyleui/apple-input",
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/cta.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-dialog",
+      "type": "registry:component",
+      "title": "Apple style Dialog",
+      "description": "Modal overlay that returns focus when it closes.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/dialog.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-endless-gallery",
+      "type": "registry:component",
+      "title": "Apple style Endless Gallery",
+      "description": "A looping media rail with timed pagination, wide imagery, and playback controls.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/endless-gallery.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-faq",
+      "type": "registry:block",
+      "title": "Apple style FAQ",
+      "description": "Questions and answers in an accordion.",
+      "registryDependencies": [
+        "@restyleui/apple-accordion",
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/faq.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-feature-grid",
+      "type": "registry:block",
+      "title": "Apple style Feature Grid",
+      "description": "Grid of features with icons or media.",
+      "registryDependencies": [
+        "@restyleui/apple-card",
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/feature-grid.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-feature-tabs",
+      "type": "registry:block",
+      "title": "Apple style Feature Tabs",
+      "description": "Features shown one at a time behind tabs.",
+      "registryDependencies": [
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-tabs",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/feature-tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-footer",
+      "type": "registry:component",
+      "title": "Apple style Footer",
+      "description": "Link columns, social links and legal line.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/footer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-footer-section",
+      "type": "registry:block",
+      "title": "Apple style Footer Section",
+      "description": "Page footer with an optional newsletter signup.",
+      "registryDependencies": [
+        "@restyleui/apple-footer",
+        "@restyleui/apple-input",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/footer-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-hero",
+      "type": "registry:block",
+      "title": "Apple style Hero",
+      "description": "Headline, copy, actions and media at the top of a page.",
+      "registryDependencies": [
+        "@restyleui/apple-button",
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-input",
+      "type": "registry:component",
+      "title": "Apple style Input",
+      "description": "Single field with a submit button, for signups.",
+      "registryDependencies": [
+        "@restyleui/apple-button",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/input.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-landing",
+      "type": "registry:block",
+      "title": "Apple style Landing",
+      "description": "Full landing page built only from Apple style pieces.",
+      "registryDependencies": [
+        "@restyleui/apple-cta",
+        "@restyleui/apple-endless-gallery",
+        "@restyleui/apple-faq",
+        "@restyleui/apple-feature-grid",
+        "@restyleui/apple-feature-tabs",
+        "@restyleui/apple-footer-section",
+        "@restyleui/apple-hero",
+        "@restyleui/apple-logo-strip",
+        "@restyleui/apple-mega-nav",
+        "@restyleui/apple-testimonials",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/landing.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "landing"
+        ]
+      }
+    },
+    {
+      "name": "apple-logo-row",
+      "type": "registry:component",
+      "title": "Apple style Logo Row",
+      "description": "A row of customer or partner logos.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/logo-row.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-logo-strip",
+      "type": "registry:block",
+      "title": "Apple style Logo Strip",
+      "description": "Section of trusted-by logos.",
+      "registryDependencies": [
+        "@restyleui/apple-logo-row",
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/logo-strip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-marquee",
+      "type": "registry:component",
+      "title": "Apple style Marquee",
+      "description": "Endless horizontal scroll of content.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-mega-nav",
+      "type": "registry:component",
+      "title": "Apple style Flyout Mega Nav",
+      "description": "A translucent navigation flyout with grouped links and staggered item reveals.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/mega-nav.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-navbar",
+      "type": "registry:component",
+      "title": "Apple style Navbar",
+      "description": "Top navigation with dropdowns and a mobile drawer.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-button",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/navbar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-reveal",
+      "type": "registry:component",
+      "title": "Apple style Reveal",
+      "description": "Entrance animation when content scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-tabs",
+      "type": "registry:component",
+      "title": "Apple style Tabs",
+      "description": "Switch between panels with the kit's animated indicator.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-testimonials",
+      "type": "registry:block",
+      "title": "Apple style Testimonials",
+      "description": "Customer quotes.",
+      "registryDependencies": [
+        "@restyleui/apple-reveal",
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/testimonials.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "apple-text-link",
+      "type": "registry:component",
+      "title": "Apple style Text Link",
+      "description": "Inline link with the kit's hover and arrow treatment.",
+      "registryDependencies": [
+        "@restyleui/apple-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/components/text-link.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "apple",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "apple-theme",
+      "type": "registry:file",
+      "title": "Apple style Theme",
+      "description": "A light, image-led product style with precise typography, quiet surfaces, and restrained motion.",
+      "registryDependencies": [
+        "@restyleui/restyle-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/apple/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-apple.css"
+        },
+        {
+          "path": "registry/apple/DESIGN.md",
+          "type": "registry:file",
+          "target": "restyle/apple/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "name": "linear-accordion",
+      "type": "registry:component",
+      "title": "Linear style Accordion",
+      "description": "Sections that expand in place.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/accordion.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-badge",
+      "type": "registry:component",
+      "title": "Linear style Badge",
+      "description": "Small label for status, category or announcements.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/badge.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-button",
+      "type": "registry:component",
+      "title": "Linear style Button",
+      "description": "Primary, secondary and ghost actions, as a button or a link.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-card",
+      "type": "registry:component",
+      "title": "Linear style Card",
+      "description": "Media, title and copy in the kit's surface style.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-carousel",
+      "type": "registry:component",
+      "title": "Linear style Carousel",
+      "description": "Swipeable slides with controls and optional autoplay.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-count-up",
+      "type": "registry:component",
+      "title": "Linear style Count Up",
+      "description": "Number that counts up when it scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-count-up"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/count-up.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-cta",
+      "type": "registry:block",
+      "title": "Linear style Call to Action",
+      "description": "Closing call to action with buttons or a signup field.",
+      "registryDependencies": [
+        "@restyleui/linear-button",
+        "@restyleui/linear-input",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/cta.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-dialog",
+      "type": "registry:component",
+      "title": "Linear style Dialog",
+      "description": "Modal overlay that returns focus when it closes.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/dialog.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-faq",
+      "type": "registry:block",
+      "title": "Linear style FAQ",
+      "description": "Questions and answers in an accordion.",
+      "registryDependencies": [
+        "@restyleui/linear-accordion",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/faq.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-feature-grid",
+      "type": "registry:block",
+      "title": "Linear style Feature Grid",
+      "description": "Grid of features with icons or media.",
+      "registryDependencies": [
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/feature-grid.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-feature-tabs",
+      "type": "registry:block",
+      "title": "Linear style Feature Tabs",
+      "description": "Features shown one at a time behind tabs.",
+      "registryDependencies": [
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-tabs",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/feature-tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-footer",
+      "type": "registry:component",
+      "title": "Linear style Footer",
+      "description": "Link columns, social links and legal line.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/footer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-footer-section",
+      "type": "registry:block",
+      "title": "Linear style Footer Section",
+      "description": "Page footer with an optional newsletter signup.",
+      "registryDependencies": [
+        "@restyleui/linear-footer",
+        "@restyleui/linear-input",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/footer-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-hero",
+      "type": "registry:block",
+      "title": "Linear style Hero",
+      "description": "Headline, copy, actions and media at the top of a page.",
+      "registryDependencies": [
+        "@restyleui/linear-badge",
+        "@restyleui/linear-button",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-input",
+      "type": "registry:component",
+      "title": "Linear style Input",
+      "description": "Single field with a submit button, for signups.",
+      "registryDependencies": [
+        "@restyleui/linear-button",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/input.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-landing",
+      "type": "registry:block",
+      "title": "Linear style Landing",
+      "description": "Full landing page built only from Linear style pieces.",
+      "registryDependencies": [
+        "@restyleui/linear-badge",
+        "@restyleui/linear-count-up",
+        "@restyleui/linear-cta",
+        "@restyleui/linear-faq",
+        "@restyleui/linear-feature-grid",
+        "@restyleui/linear-feature-tabs",
+        "@restyleui/linear-footer-section",
+        "@restyleui/linear-logo-strip",
+        "@restyleui/linear-navbar",
+        "@restyleui/linear-product-demo-hero",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-tech-spec-drawer",
+        "@restyleui/linear-testimonials",
+        "@restyleui/linear-text-link",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/landing.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "landing"
+        ]
+      }
+    },
+    {
+      "name": "linear-logo-row",
+      "type": "registry:component",
+      "title": "Linear style Logo Row",
+      "description": "A row of customer or partner logos.",
+      "registryDependencies": [
+        "@restyleui/linear-marquee",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/logo-row.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-logo-strip",
+      "type": "registry:block",
+      "title": "Linear style Logo Strip",
+      "description": "Section of trusted-by logos.",
+      "registryDependencies": [
+        "@restyleui/linear-logo-row",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/logo-strip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-marquee",
+      "type": "registry:component",
+      "title": "Linear style Marquee",
+      "description": "Endless horizontal scroll of content.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-navbar",
+      "type": "registry:component",
+      "title": "Linear style Navbar",
+      "description": "Top navigation with dropdowns and a mobile drawer.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-button",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/navbar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-product-demo-hero",
+      "type": "registry:component",
+      "title": "Linear style Product Demo Hero",
+      "description": "A scene-switching product workspace sits beneath a concise headline and supporting copy.",
+      "dependencies": [
+        "@ui-sdk/react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/product-demo-hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-reveal",
+      "type": "registry:component",
+      "title": "Linear style Reveal",
+      "description": "Entrance animation when content scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-tabs",
+      "type": "registry:component",
+      "title": "Linear style Tabs",
+      "description": "Switch between panels with the kit's animated indicator.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-tech-spec-drawer",
+      "type": "registry:component",
+      "title": "Linear style Tech Spec Drawer",
+      "description": "A right-side technical details panel groups specification rows and returns focus when closed.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/tech-spec-drawer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-testimonials",
+      "type": "registry:block",
+      "title": "Linear style Testimonials",
+      "description": "Customer quotes.",
+      "registryDependencies": [
+        "@restyleui/linear-carousel",
+        "@restyleui/linear-reveal",
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/testimonials.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "linear-text-link",
+      "type": "registry:component",
+      "title": "Linear style Text Link",
+      "description": "Inline link with the kit's hover and arrow treatment.",
+      "registryDependencies": [
+        "@restyleui/linear-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/components/text-link.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "linear",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "linear-theme",
+      "type": "registry:file",
+      "title": "Linear style Theme",
+      "description": "A near-black canvas pairs crisp Inter typography and restrained indigo accents with quick fades and right-side panel motion.",
+      "registryDependencies": [
+        "@restyleui/restyle-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/linear/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-linear.css"
+        },
+        {
+          "path": "registry/linear/DESIGN.md",
+          "type": "registry:file",
+          "target": "restyle/linear/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "name": "mckp-accordion",
+      "type": "registry:component",
+      "title": "mckp style Accordion",
+      "description": "Sections that expand in place.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/accordion.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-badge",
+      "type": "registry:component",
+      "title": "mckp style Badge",
+      "description": "Small label for status, category or announcements.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/badge.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-button",
+      "type": "registry:component",
+      "title": "mckp style Button",
+      "description": "Primary, secondary and ghost actions, as a button or a link.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-card",
+      "type": "registry:component",
+      "title": "mckp style Card",
+      "description": "Media, title and copy in the kit's surface style.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video",
+        "@restyleui/use-reveal",
+        "@restyleui/use-tilt"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-carousel",
+      "type": "registry:component",
+      "title": "mckp style Carousel",
+      "description": "Swipeable slides with controls and optional autoplay.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-code-typing-demo",
+      "type": "registry:component",
+      "title": "mckp style Code Typing Demo",
+      "description": "An embed snippet types itself into a tilted code dialog, then presses its own copy button in a slow loop.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-reveal",
+        "@restyleui/use-tilt"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/code-typing-demo.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-count-up",
+      "type": "registry:component",
+      "title": "mckp style Count Up",
+      "description": "Number that counts up when it scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-count-up"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/count-up.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-cta",
+      "type": "registry:block",
+      "title": "mckp style Call to Action",
+      "description": "Closing call to action with buttons or a signup field.",
+      "registryDependencies": [
+        "@restyleui/mckp-button",
+        "@restyleui/mckp-input",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/cta.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-dialog",
+      "type": "registry:component",
+      "title": "mckp style Dialog",
+      "description": "Modal overlay that returns focus when it closes.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/dialog.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-faq",
+      "type": "registry:block",
+      "title": "mckp style FAQ",
+      "description": "Questions and answers in an accordion.",
+      "registryDependencies": [
+        "@restyleui/mckp-accordion",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/faq.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-feature-grid",
+      "type": "registry:block",
+      "title": "mckp style Feature Grid",
+      "description": "Grid of features with icons or media.",
+      "registryDependencies": [
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/feature-grid.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-feature-tabs",
+      "type": "registry:block",
+      "title": "mckp style Feature Tabs",
+      "description": "Features shown one at a time behind tabs.",
+      "registryDependencies": [
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-tabs",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/feature-tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-footer",
+      "type": "registry:component",
+      "title": "mckp style Footer",
+      "description": "Link columns, social links and legal line.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/footer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-footer-section",
+      "type": "registry:block",
+      "title": "mckp style Footer Section",
+      "description": "Page footer with an optional newsletter signup.",
+      "registryDependencies": [
+        "@restyleui/mckp-footer",
+        "@restyleui/mckp-input",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/footer-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-hero",
+      "type": "registry:block",
+      "title": "mckp style Hero",
+      "description": "Headline, copy, actions and media at the top of a page.",
+      "registryDependencies": [
+        "@restyleui/mckp-badge",
+        "@restyleui/mckp-button",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video",
+        "@restyleui/use-scroll-progress"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-input",
+      "type": "registry:component",
+      "title": "mckp style Input",
+      "description": "Single field with a submit button, for signups.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/input.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-landing",
+      "type": "registry:block",
+      "title": "mckp style Landing",
+      "description": "Full landing page built only from mckp style pieces.",
+      "registryDependencies": [
+        "@restyleui/mckp-card",
+        "@restyleui/mckp-code-typing-demo",
+        "@restyleui/mckp-cta",
+        "@restyleui/mckp-faq",
+        "@restyleui/mckp-feature-grid",
+        "@restyleui/mckp-feature-tabs",
+        "@restyleui/mckp-footer-section",
+        "@restyleui/mckp-hero",
+        "@restyleui/mckp-library-preview",
+        "@restyleui/mckp-logo-strip",
+        "@restyleui/mckp-navbar",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-testimonials",
+        "@restyleui/mckp-text-link",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/landing.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "landing"
+        ]
+      }
+    },
+    {
+      "name": "mckp-library-preview",
+      "type": "registry:component",
+      "title": "mckp style Library Preview",
+      "description": "A four-column wall of looping scene tiles that picks a random subset, preloads ahead of the viewport and plays one clip at a time.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/library-preview.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-logo-row",
+      "type": "registry:component",
+      "title": "mckp style Logo Row",
+      "description": "A row of customer or partner logos.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/logo-row.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-logo-strip",
+      "type": "registry:block",
+      "title": "mckp style Logo Strip",
+      "description": "Section of trusted-by logos.",
+      "registryDependencies": [
+        "@restyleui/mckp-logo-row",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/logo-strip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-marquee",
+      "type": "registry:component",
+      "title": "mckp style Marquee",
+      "description": "Endless horizontal scroll of content.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-navbar",
+      "type": "registry:component",
+      "title": "mckp style Navbar",
+      "description": "Top navigation with dropdowns and a mobile drawer.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/mckp-button",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal",
+        "@restyleui/use-scroll-state"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/navbar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-reveal",
+      "type": "registry:component",
+      "title": "mckp style Reveal",
+      "description": "Entrance animation when content scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-tabs",
+      "type": "registry:component",
+      "title": "mckp style Tabs",
+      "description": "Switch between panels with the kit's animated indicator.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-testimonials",
+      "type": "registry:block",
+      "title": "mckp style Testimonials",
+      "description": "Customer quotes.",
+      "registryDependencies": [
+        "@restyleui/mckp-carousel",
+        "@restyleui/mckp-reveal",
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/testimonials.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "mckp-text-link",
+      "type": "registry:component",
+      "title": "mckp style Text Link",
+      "description": "Inline link with the kit's hover and arrow treatment.",
+      "registryDependencies": [
+        "@restyleui/mckp-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/components/text-link.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "mckp",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "mckp-theme",
+      "type": "registry:file",
+      "title": "mckp style Theme",
+      "description": "A black cinematic studio for 3D device mockups, with white product buttons, quiet grey type, 2px tile gaps and slow, precise motion.",
+      "registryDependencies": [
+        "@restyleui/restyle-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/mckp/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-mckp.css"
+        },
+        {
+          "path": "registry/mckp/DESIGN.md",
+          "type": "registry:file",
+          "target": "restyle/mckp/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "name": "norma-accordion",
+      "type": "registry:component",
+      "title": "Norma style Accordion",
+      "description": "Sections that expand in place.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/accordion.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-badge",
+      "type": "registry:component",
+      "title": "Norma style Badge",
+      "description": "Small label for status, category or announcements.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/badge.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-button",
+      "type": "registry:component",
+      "title": "Norma style Button",
+      "description": "Primary, secondary and ghost actions, as a button or a link.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-card",
+      "type": "registry:component",
+      "title": "Norma style Card",
+      "description": "Media, title and copy in the kit's surface style.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-carousel",
+      "type": "registry:component",
+      "title": "Norma style Carousel",
+      "description": "Swipeable slides with controls and optional autoplay.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-count-up",
+      "type": "registry:component",
+      "title": "Norma style Count Up",
+      "description": "Number that counts up when it scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-count-up"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/count-up.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-cta",
+      "type": "registry:block",
+      "title": "Norma style Call to Action",
+      "description": "Closing call to action with buttons or a signup field.",
+      "registryDependencies": [
+        "@restyleui/norma-button",
+        "@restyleui/norma-input",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/cta.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-dialog",
+      "type": "registry:component",
+      "title": "Norma style Dialog",
+      "description": "Modal overlay that returns focus when it closes.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/dialog.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-faq",
+      "type": "registry:block",
+      "title": "Norma style FAQ",
+      "description": "Questions and answers in an accordion.",
+      "registryDependencies": [
+        "@restyleui/norma-accordion",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/faq.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-feature-grid",
+      "type": "registry:block",
+      "title": "Norma style Feature Grid",
+      "description": "Grid of features with icons or media.",
+      "registryDependencies": [
+        "@restyleui/norma-badge",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/feature-grid.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-feature-tabs",
+      "type": "registry:block",
+      "title": "Norma style Feature Tabs",
+      "description": "Features shown one at a time behind tabs.",
+      "registryDependencies": [
+        "@restyleui/norma-badge",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-tabs",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/feature-tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-footer",
+      "type": "registry:component",
+      "title": "Norma style Footer",
+      "description": "Link columns, social links and legal line.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/footer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-footer-section",
+      "type": "registry:block",
+      "title": "Norma style Footer Section",
+      "description": "Page footer with an optional newsletter signup.",
+      "registryDependencies": [
+        "@restyleui/norma-footer",
+        "@restyleui/norma-input",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/footer-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-globe",
+      "type": "registry:component",
+      "title": "Norma style Globe",
+      "description": "A dark wireframe globe that tilts toward the pointer, with a glowing locator beam under a centered call to action.",
+      "registryDependencies": [
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/globe.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-hero",
+      "type": "registry:block",
+      "title": "Norma style Hero",
+      "description": "Headline, copy, actions and media at the top of a page.",
+      "registryDependencies": [
+        "@restyleui/norma-badge",
+        "@restyleui/norma-button",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-input",
+      "type": "registry:component",
+      "title": "Norma style Input",
+      "description": "Single field with a submit button, for signups.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/input.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-landing",
+      "type": "registry:block",
+      "title": "Norma style Landing",
+      "description": "Full landing page built only from Norma style pieces.",
+      "registryDependencies": [
+        "@restyleui/norma-badge",
+        "@restyleui/norma-button",
+        "@restyleui/norma-card",
+        "@restyleui/norma-carousel",
+        "@restyleui/norma-cta",
+        "@restyleui/norma-faq",
+        "@restyleui/norma-feature-grid",
+        "@restyleui/norma-feature-tabs",
+        "@restyleui/norma-footer-section",
+        "@restyleui/norma-globe",
+        "@restyleui/norma-hero",
+        "@restyleui/norma-logo-strip",
+        "@restyleui/norma-marquee",
+        "@restyleui/norma-navbar",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-screen-time-calculator",
+        "@restyleui/norma-scroll-video-reveal",
+        "@restyleui/norma-testimonials",
+        "@restyleui/norma-text-link",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/landing.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "landing"
+        ]
+      }
+    },
+    {
+      "name": "norma-logo-row",
+      "type": "registry:component",
+      "title": "Norma style Logo Row",
+      "description": "A row of customer or partner logos.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/logo-row.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-logo-strip",
+      "type": "registry:block",
+      "title": "Norma style Logo Strip",
+      "description": "Section of trusted-by logos.",
+      "registryDependencies": [
+        "@restyleui/norma-logo-row",
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/logo-strip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-marquee",
+      "type": "registry:component",
+      "title": "Norma style Marquee",
+      "description": "Endless horizontal scroll of content.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-navbar",
+      "type": "registry:component",
+      "title": "Norma style Navbar",
+      "description": "Top navigation with dropdowns and a mobile drawer.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/navbar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-reveal",
+      "type": "registry:component",
+      "title": "Norma style Reveal",
+      "description": "Entrance animation when content scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-screen-time-calculator",
+      "type": "registry:component",
+      "title": "Norma style Screen Time Calculator",
+      "description": "Drag the age and screen time fields to see the years and share of life spent on a phone.",
+      "registryDependencies": [
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/screen-time-calculator.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-scroll-video-reveal",
+      "type": "registry:component",
+      "title": "Norma style Scroll Video Reveal",
+      "description": "A full-screen film scrubbed forward and backward by scroll position, closing on a pinned order call to action.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-scroll-progress"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/scroll-video-reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-tabs",
+      "type": "registry:component",
+      "title": "Norma style Tabs",
+      "description": "Switch between panels with the kit's animated indicator.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-testimonials",
+      "type": "registry:block",
+      "title": "Norma style Testimonials",
+      "description": "Customer quotes.",
+      "registryDependencies": [
+        "@restyleui/norma-reveal",
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/testimonials.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "norma-text-link",
+      "type": "registry:component",
+      "title": "Norma style Text Link",
+      "description": "Inline link with the kit's hover and arrow treatment.",
+      "registryDependencies": [
+        "@restyleui/norma-theme",
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/components/text-link.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "norma",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "norma-theme",
+      "type": "registry:file",
+      "title": "Norma style Theme",
+      "description": "Quiet Swiss product minimalism: near-black type on white, soft gray wells, pill controls and moody steel photography that blurs into focus while a film scrubs with the scroll.",
+      "registryDependencies": [
+        "@restyleui/restyle-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/norma/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-norma.css"
+        },
+        {
+          "path": "registry/norma/DESIGN.md",
+          "type": "registry:file",
+          "target": "restyle/norma/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "name": "restyle-contract",
+      "type": "registry:lib",
+      "title": "Restyle UI Contract",
+      "description": "Shared props for every common component and section.",
+      "files": [
+        {
+          "path": "registry/restyle/lib/contract.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "restyle-theme",
+      "type": "registry:file",
+      "title": "Restyle UI Theme Bridge",
+      "description": "Maps the token names every kit defines to Tailwind v4 utilities.",
+      "files": [
+        {
+          "path": "registry/restyle/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-theme.css"
+        }
+      ]
+    },
+    {
+      "name": "restyle-utils",
+      "type": "registry:lib",
+      "title": "Restyle UI Utils",
+      "description": "The cn() helper every Restyle UI piece uses.",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "teamwork-accordion",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Accordion",
+      "description": "Sections that expand in place.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/accordion.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-badge",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Badge",
+      "description": "Small label for status, category or announcements.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/badge.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-button",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Button",
+      "description": "Primary, secondary and ghost actions, as a button or a link.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/button.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-card",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Card",
+      "description": "Media, title and copy in the kit's surface style.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/card.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-carousel",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Carousel",
+      "description": "Swipeable slides with controls and optional autoplay.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-connector-marquee",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Connector Marquee",
+      "description": "A continuous connector rail drifts horizontally while nearby tiles respond with a gentle magnetic lift.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-button",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-marquee",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-tilt"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/connector-marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-count-up",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Count Up",
+      "description": "Number that counts up when it scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-count-up"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/count-up.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-cta",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Call to Action",
+      "description": "Closing call to action with buttons or a signup field.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-button",
+        "@restyleui/teamwork-input",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/cta.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-dialog",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Dialog",
+      "description": "Modal overlay that returns focus when it closes.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/dialog.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-faq",
+      "type": "registry:block",
+      "title": "Teamwork Graph style FAQ",
+      "description": "Questions and answers in an accordion.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-accordion",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/faq.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-feature-grid",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Feature Grid",
+      "description": "Grid of features with icons or media.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/feature-grid.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-feature-tabs",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Feature Tabs",
+      "description": "Features shown one at a time behind tabs.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-tabs",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-in-view-video"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/feature-tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-footer",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Footer",
+      "description": "Link columns, social links and legal line.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/footer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-footer-section",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Footer Section",
+      "description": "Page footer with an optional newsletter signup.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-footer",
+        "@restyleui/teamwork-input",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/footer-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-hero",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Hero",
+      "description": "Headline, copy, actions and media at the top of a page.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-badge",
+        "@restyleui/teamwork-button",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-in-view-video",
+        "@restyleui/use-reduced-motion",
+        "@restyleui/use-reveal",
+        "@restyleui/use-scroll-progress"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-input",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Input",
+      "description": "Single field with a submit button, for signups.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/input.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-landing",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Landing",
+      "description": "Full landing page built only from Teamwork Graph style pieces.",
+      "registryDependencies": [
+        "@restyleui/teamwork-connector-marquee",
+        "@restyleui/teamwork-cta",
+        "@restyleui/teamwork-faq",
+        "@restyleui/teamwork-feature-grid",
+        "@restyleui/teamwork-feature-tabs",
+        "@restyleui/teamwork-footer-section",
+        "@restyleui/teamwork-hero",
+        "@restyleui/teamwork-logo-strip",
+        "@restyleui/teamwork-navbar",
+        "@restyleui/teamwork-odometer",
+        "@restyleui/teamwork-overview-carousel",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-testimonials",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/landing.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "landing"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-logo-row",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Logo Row",
+      "description": "A row of customer or partner logos.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/logo-row.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-logo-strip",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Logo Strip",
+      "description": "Section of trusted-by logos.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-logo-row",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/logo-strip.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-marquee",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Marquee",
+      "description": "Endless horizontal scroll of content.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-navbar",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Navbar",
+      "description": "Top navigation with dropdowns and a mobile drawer.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-button",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-kit-portal"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/navbar.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-odometer",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Odometer",
+      "description": "A mono-spaced cascading number readout rolls each digit into place as graph metrics enter view.",
+      "registryDependencies": [
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/odometer.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-overview-carousel",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Staged Overview Carousel",
+      "description": "Three graph scenes stage their connections and explanatory copy as visitors move between panels.",
+      "registryDependencies": [
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/overview-carousel.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-reveal",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Reveal",
+      "description": "Entrance animation when content scrolls into view.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme",
+        "@restyleui/use-reveal"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/reveal.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-tabs",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Tabs",
+      "description": "Switch between panels with the kit's animated indicator.",
+      "dependencies": [
+        "@ui-sdk/react"
+      ],
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/tabs.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-testimonials",
+      "type": "registry:block",
+      "title": "Teamwork Graph style Testimonials",
+      "description": "Customer quotes.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-reveal",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/testimonials.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "section"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-text-link",
+      "type": "registry:component",
+      "title": "Teamwork Graph style Text Link",
+      "description": "Inline link with the kit's hover and arrow treatment.",
+      "registryDependencies": [
+        "@restyleui/restyle-contract",
+        "@restyleui/restyle-utils",
+        "@restyleui/teamwork-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/components/text-link.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "categories": [
+          "teamwork",
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "teamwork-theme",
+      "type": "registry:file",
+      "title": "Teamwork Graph style Theme",
+      "description": "An ink-black canvas, editorial display type and luminous graph connections create a confident product-diagram feel.",
+      "registryDependencies": [
+        "@restyleui/restyle-theme"
+      ],
+      "files": [
+        {
+          "path": "registry/teamwork/theme.css",
+          "type": "registry:file",
+          "target": "app/restyle-teamwork.css"
+        },
+        {
+          "path": "registry/teamwork/DESIGN.md",
+          "type": "registry:file",
+          "target": "restyle/teamwork/DESIGN.md"
+        }
+      ]
+    },
+    {
+      "name": "use-count-up",
+      "type": "registry:hook",
+      "title": "Use Count Up",
+      "description": "A number that counts from from to value when it scrolls into view, eased, formatted with Intl.NumberFormat.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-count-up.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-in-view-video",
+      "type": "registry:hook",
+      "title": "Use In View Video",
+      "description": "Plays a muted background video while it is in view and pauses it when it leaves, when the tab is hidden, or when the user pauses it.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-in-view-video.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-kit-portal",
+      "type": "registry:hook",
+      "title": "Use Kit Portal",
+      "description": "The element overlays should render into, so they keep the kit's CSS variables.",
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-kit-portal.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-marquee",
+      "type": "registry:hook",
+      "title": "Use Marquee",
+      "description": "An endless horizontal scroll at a fixed speed in px per second.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-marquee.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-reduced-motion",
+      "type": "registry:hook",
+      "title": "Use Reduced Motion",
+      "description": "Whether the user asked the system for less motion.",
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-reduced-motion.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-reveal",
+      "type": "registry:hook",
+      "title": "Use Reveal",
+      "description": "Tells an element when it scrolls into view, for entrance animations and staged (staggered) entrances.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-reveal.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-scroll-progress",
+      "type": "registry:hook",
+      "title": "Use Scroll Progress",
+      "description": "How far an element has travelled through the viewport, from 0 to 1, for scroll-scrubbed video, parallax and progress bars.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-scroll-progress.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-scroll-state",
+      "type": "registry:hook",
+      "title": "Use Scroll State",
+      "description": "Whether the page has scrolled past a threshold, and which way it last moved.",
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-scroll-state.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-tilt",
+      "type": "registry:hook",
+      "title": "Use Tilt",
+      "description": "3D tilt and pointer follow for cards.",
+      "registryDependencies": [
+        "@restyleui/use-reduced-motion"
+      ],
+      "files": [
+        {
+          "path": "registry/restyle/hooks/use-tilt.ts",
+          "type": "registry:hook"
+        }
+      ]
+    }
+  ]
+}

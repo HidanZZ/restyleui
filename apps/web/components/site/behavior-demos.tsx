@@ -369,8 +369,8 @@ const SLIDES = [
 
 function CarouselDemo() {
   return (
-    <Carousel aria-label="Demo slides" loop defaultPlaying interval={4000} className="max-w-xl">
-      <CarouselViewport className="rounded-xl [scrollbar-width:none]">
+    <Carousel aria-label="Demo slides" loop defaultPlaying interval={4000} className="w-full min-w-0 max-w-xl">
+      <CarouselViewport className="min-w-0 rounded-xl [scrollbar-width:none]">
         <CarouselContent className="flex gap-4">
           {SLIDES.map((slide, index) => (
             <CarouselItem key={slide.name} className="min-w-0 basis-full sm:basis-[calc((100%-1rem)/2)]">

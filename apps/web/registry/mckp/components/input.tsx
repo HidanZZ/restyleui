@@ -81,7 +81,7 @@ export function Input({
             autoComplete={type === "email" ? "email" : undefined}
             aria-invalid={status === "error" || undefined}
             aria-describedby={note ? `${id}-note` : undefined}
-            className="h-10 min-w-0 flex-1 bg-transparent px-3 text-[length:var(--mckp-type-body)] text-foreground outline-none placeholder:text-(--mckp-ink-dim)"
+            className="h-10 w-0 min-w-0 flex-1 bg-transparent px-3 text-[length:var(--mckp-type-body)] text-foreground outline-none placeholder:text-(--mckp-ink-dim)"
           />
           <button
             type="submit"
